@@ -1,0 +1,34 @@
+//Estilos generales
+
+* {
+	font-family: $font-family_1;
+}
+
+body {
+	background-color: $background-color_1;
+	margin: 0;
+	margin-bottom: 120px;
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+main {
+	padding: 20px;
+}
+
+h1 {
+	color: $color_1;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+

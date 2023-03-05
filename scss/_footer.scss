@@ -1,0 +1,34 @@
+//Estilos del Footer
+
+.fa-facebook-f {
+	transition: all 0.5s;
+	&:hover {
+		color: $color_2;
+	}
+}
+.fa-github {
+	transition: all 0.5s;
+	&:hover {
+		color: $color_5;
+	}
+}
+.fa-instagram {
+	transition: all 0.5s;
+	&:hover {
+		color: $color_3;
+	}
+}
+.fa-linkedin {
+	transition: all 0.5s;
+	&:hover {
+		color: $color_4;
+	}
+}
+.fab {
+	font-size: 20px;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

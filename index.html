@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | DigitO Agencia Digital</title>
+    <!-- LINK DE LOGO FAVICON -->
+    <link rel="shortcut icon" href="/img/favicon.png" />
+    <!-- LINK DE AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- LINK DE BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- LINK DE CSS-->
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light" aria-label="Thirteenth navbar example">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+                    <a class="navbar-brand col-lg-3 me-0 d-none d-xxl-block" href="./index.html"><img
+                            src="./img/logo-digito.png" alt="Logo DigitO"></a>
+                    <ul class="navbar-nav col-lg-6 justify-content-xxl-center justify-content-lg-between">
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="./pages/equipo.html">Equipo</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item my-auto">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/carrusel1.jpg" class="d-block mx-auto imagenCarrusel" alt="Primer imagen de carrusel">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/carrusel2.jpg" class="d-block mx-auto imagenCarrusel" alt="Segunda imagen de carrusel">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/carrusel3.jpg" class="d-block mx-auto imagenCarrusel" alt="Tercera imagen de carrusel">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-2 border-bottom my-auto">
+            <div class=" my-auto p-3 me-5 d-none d-lg-block">
+                <span class="">Síguenos en nuestras redes sociales:</span>
+            </div>
+            <div class="my-auto">
+                <a href="https://www.facebook.com/NachitoBillalobos/"
+                    class="me-xxl-5 me-xl-5 me-lg-5 me-md-5 mx-4 link-secondary" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/ignacio_billalobos/"
+                    class="me-xxl-5 me-xl-5 me-lg-5 me-md-5 mx-4 link-secondary" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/manuel-ignacio-billalobos/"
+                    class="me-xxl-5 me-xl-5 me-lg-5 me-md-5 mx-4 link-secondary" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/mbillalobos" class="me-xxl-5 me-xl-5 me-lg-5 me-md-5 mx-4 link-secondary"
+                    target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+        <div class="text-center p-2">© 2023 Copyright:
+            <a class="text-reset fw-bold" href="https://www.linkedin.com/in/manuel-ignacio-billalobos/"
+                target="_blank">Ignacio Billalobos</a>
+        </div>
+    </footer>
+
+    <!--SCRIPT PARA AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!--SCRIPT PARA BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!--SCRIPT PARA FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/2f93878564.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
